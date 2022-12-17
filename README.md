@@ -2,8 +2,9 @@
 
 
 ## **1. Methodology**
-This is a browser extension which has a background script with a timer runnning in the background which syncs with the pc clock everytime the browser starts.
-User adds a single URL/ a list of URLs with a time period next to it, for each day of the week. The extension navigates the user to the desired tab at the desired time.
+This is a browser extension made using ReactJS. It has a background script with a timer runnning in the background which syncs with the pc clock everytime the browser starts.
+User adds a single URL/ a list of URLs with a time period next to it, for each day of the week. 
+The data is stored in the Local Storage of the broswer, therefore, it does not get deleted after you close the browser. The extension navigates the user to the desired tab at the desired time.
 This app is especially useful for online classes, where you can make a time table where all the class links open at the specified time of each day.
 
 
